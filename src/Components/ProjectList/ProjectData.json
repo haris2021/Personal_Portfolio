@@ -1,0 +1,23 @@
+[
+        {
+        "image": "https://caltech-prod.s3.amazonaws.com/main/images/CollinCamerer-ShortSelling-0.2e16d0ba.fill-1600x810-c100.jpg ",
+        "title": "Stock Master",
+          "para": "I developed a  highly efficient and user-friendly investment application in Java that fetches real-time data from Yahoo's API to provide users with a comprehensive range of investment options. The application empowers users to create customizable portfolios that meet their specific investment goals and allows them to track their investments with ease.",
+          "git": "google.com",
+          "tech": "JAVA. MVC. JUNIT. JAVASWING. DESIGN PATTERNS"
+        },
+        {
+          "image": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/GTWVTYFH6VI4FDP4ISD7S5624Y.jpg",
+          "title": "Twitter Clone",
+          "para": "I led the design and development of a cutting-edge web application using the MERN stack that provides a seamless user experience to tweet, retweet, and delete tweets using React and Node. Expertly managed APIs resources and integrated multiple external APIs to embed content from various sites into web pages, such as the Standard v1.1 Twitter API that works seamlessly across devices",
+          "git": "youtube.com",
+          "tech": "HTML/CSS. JavaScript. Jquery. React. ReactHooks. NodeJs. MongoDB. UnitTesting. "
+        },
+        {
+          "image": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_649362670_395940.jpg",
+          "title": "Car Rental System",
+          "para": "I developed an innovative and secure database system capable of storing the data of customers and cars, empowering users to rent, return cars, provide feedback, and enabling admins to monitor and manage the data.I formulated a robust relational database architecture by creating schemas and programming objects, procedures, triggers, functions to manipulate and display the stored data",
+          "git": "youtube.com",
+          "tech": "JAVA. SQL. MYSQL. DATABASE PROGRAMMING OBJECTS. JSWING"
+        }
+]

@@ -1,0 +1,201 @@
+.app-projectheading
+{
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+
+.app-workcontainer
+{
+    background-color: rgba(0,0,0,0.87);
+
+}
+
+.app-imgdiv
+{
+    padding-bottom: 20px;
+    height: 200px; /* set the height of the div */
+    overflow: hidden;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.app-projectcontainer
+{
+    max-width: 1140px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:  40px;
+    padding-bottom: 5rem;
+
+}
+
+.app-projectcard
+{
+    padding-top:1.2rem;
+    padding-bottom: 5rem;
+
+}
+
+
+.app-projectcard img
+{
+    width: 100%;
+    height:110%;
+    border-radius: 40px;
+    padding-top:10px;
+    justify-content: center;
+
+}
+
+.app-btn
+{
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(248,217,200);
+    color:#222;
+    border-width: 1px;
+    border-color: #fff;
+    border-style: solid;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.app-probtn
+{
+    padding: 0.5rem 0.7rem;
+    margin-top:10px;
+}
+
+.app-projectitle
+{
+    color:#fff;
+    padding:1rem ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.app-prodetails p
+{
+    padding:1rem 1rem;
+    font-size:1.1rem;
+    font-weight: lighter;
+    height: 300px; /* set the height of the div */
+    overflow: hidden;
+}
+
+.app-techstack
+{
+    color:white;
+    margin-top:10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.app-techstack1
+{
+    color:white;
+    margin-top:10px;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.app-ch
+{
+    width: 100%;
+    margin-left: 3px;
+}
+.app-lol
+{
+
+    padding-top:11px;
+}
+
+.app-btn
+{
+    margin:1.4rem 6.5rem;
+    padding: 11px 28px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: white;
+    color:#222;
+    border-width: 1px;
+    border-color: #fff;
+    border-style: solid;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.app-btn:hover
+{
+    background-color: rgba(255,255,255,0.2);
+    color:#fff;
+    transition:0.3s;
+}
+
+@media (max-width: 767px)
+{
+    .app-projectcontainer
+    {
+        grid-template-columns: 1fr;
+        width: 50%;
+    }
+    .app-prodetails p
+    {
+        height: 60%;
+    }
+    .app-projectitle
+    {
+        font-size: 20px;
+    }
+
+    .app-projectcard
+    {
+        height:90%;
+    }
+
+    .app-ch
+    {
+        margin-bottom: 10px;
+    }
+
+    .app-projectcard img
+    {
+        width: 100%;
+        height:110%;
+        border-radius: 40px;
+        margin-top:10px;
+        justify-content: center;
+
+    }
+
+
+
+}
+
+@media (min-width: 768px)
+and (max-width: 991px){
+
+   .app-projectitle
+   {
+       font-size: 20px;
+   }
+
+    .app-projectcard img
+    {
+        width: 100%;
+        height:100%;
+        border-radius: 60px;
+        margin-top:10px;
+        justify-content: center;
+
+    }
+
+
+
+}

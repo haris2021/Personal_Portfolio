@@ -1,0 +1,94 @@
+.app-mask
+{
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+
+
+
+.app-introimg
+{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.app-mask::after
+{
+    content:"";
+    left:0;
+    top:0;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.app-hero
+{
+    height: 100%;
+    width: 100%;
+}
+
+.app-content
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+
+}
+.app-content h1
+{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem ;
+}
+
+.app-content p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.app-herobtn
+{
+    margin:1.4rem 0.5rem;
+    padding: 12px 28px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: white;
+    color:#222;
+    border-width: 1px;
+    border-color: #fff;
+    border-style: solid;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.app-herobtn:hover
+{
+    background-color: rgba(255,255,255,0.2);
+    color:#fff;
+    transition:0.3s;
+}
+
+@media (max-width: 640px)
+{
+    .app-content
+    {
+        margin-left:50px;
+    }
+    .app-content h1
+    {
+        font-size: 3rem;
+    }
+
+    .app-content p{
+        font-size: 1.4rem;
+    }
+}

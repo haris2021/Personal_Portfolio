@@ -1,0 +1,48 @@
+.app-heroimg
+{
+    width: 100%;
+    height:60vh;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.app-heroimg::before
+{
+    content:" ";
+    background-size: cover;
+    background: url("https://i.pinimg.com/originals/e5/c8/03/e5c803a1f390a8bfb5f45abd8a055ba5.jpg");
+    background-position: center top;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index: -1;
+
+}
+.app-heading
+{
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-heroimg h1
+{
+    font-size: 2.4rem;
+}
+
+.app-heroimg p
+{
+    font-size:1rem;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+
+    .app-heroimg h1
+    {
+        font-size: 2rem;
+    }
+}
