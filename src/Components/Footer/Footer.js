@@ -54,7 +54,7 @@ const Footer = ( ) =>
                 <div className="app-right ">
 
                               <Link to="https://www.linkedin.com/in/haris11/"><FaLinkedin style={{color:"#fff",marginTop:"30px"}} size={20}/></Link>
-                              <Link to="#"><FaGithub style={{color:"#fff",marginTop:"30px"}} size={20} /></Link>
+                             {/* <Link to="#"><FaGithub style={{color:"#fff",marginTop:"30px"}} size={20} /></Link>*/}
                               <Link to="https://twitter.com/Harisgunasekar"><FaTwitter style={{color:"#fff", marginTop:"30px"}} size={20} /></Link>
 
 
