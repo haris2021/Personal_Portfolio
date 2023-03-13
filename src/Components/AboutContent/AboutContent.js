@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-const PDF_file_url = 'https://main--jazzy-semifreddo-bcf258.netlify.app/HarisGunasekaran_Resume.pdf'
-const Cl_file_url = 'https://main--jazzy-semifreddo-bcf258.netlify.app/Haris_Gunasekaran_CoverLetter_.pdf'
+const PDF_file_url = 'https://portfolio1--ubiquitous-frangipane-9e7ca0.netlify.app/HarisGunasekaran_Resume.pdf'
+const Cl_file_url = 'https://portfolio1--ubiquitous-frangipane-9e7ca0.netlify.app/Haris_Gunasekaran_CoverLetter_.pdf'
 
 const AboutContent = ( ) =>
 {
