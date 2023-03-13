@@ -4,8 +4,23 @@ import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
+const PDF_file_url = 'https://main--jazzy-semifreddo-bcf258.netlify.app/HarisGunasekaran_Resume.pdf'
+const Cl_file_url = 'https://main--jazzy-semifreddo-bcf258.netlify.app/Haris_Gunasekaran_CoverLetter_.pdf'
+
 const AboutContent = ( ) =>
 {
+            const downloadFileatURL =(url)=>{
+
+            const filename = url.split('/').pop()
+            const atag = document.createElement('a')
+            atag.href = url;
+            atag.setAttribute('download',filename)
+            document.body.appendChild(atag)
+            atag.click();
+            atag.remove();
+            }
+
+
         return(
         <div >
 
@@ -27,17 +42,18 @@ const AboutContent = ( ) =>
 
                         <div className="row">
 
-                                    <div className="col-xl-6 col-md-6 col-sm-12 app-l">
+                            <div className="col-xl-6 col-md-6 col-sm-12 app-l">
 
-                                       <a href="../../public/Resume/HarisGunasekaran_Resume.pdf" download=" HarisGunasekaran_Resume.pdf "> <button className="app-aboutbtn">Download Resume</button> </a>
+                                <button onClick={()=>{downloadFileatURL(PDF_file_url)}} className="app-aboutbtn">Download Resume</button>
 
-                                    </div>
+                            </div>
 
-                                    <div className="col-xl-6 col-md-6 col-sm-12 app-t">
+                            <div className="col-xl-6 col-md-6 col-sm-12 app-t">
 
-                                        <a href="../../public/Resume/Haris_Gunasekaran_CoverLetter_.pdf" download="Haris_Gunasekaran_CoverLetter_.pdf"><button className="app-lt app-aboutbtn" >Download CV</button></a>
+                                <button onClick={()=>{downloadFileatURL(Cl_file_url)}} className="app-lt app-aboutbtn" >Download CV</button>
 
-                                    </div>
+                             </div>
+
                         </div>
 
 

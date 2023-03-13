@@ -6,10 +6,10 @@
 
 .app-form
 {
-    background-color:rgba(33,33,33,0.87);
+    background-color:blue;
     width: 60%;
     height: 80vh;
-    margin-left: 210px;
+    margin-left: 300px;
     padding: 2rem 6rem;
     border-radius: 20px;
     margin-bottom: 50px;
